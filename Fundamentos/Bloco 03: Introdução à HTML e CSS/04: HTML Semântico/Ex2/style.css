@@ -1,7 +1,36 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+header {
+  height: 10vh;
+  background-color: lightseagreen;
+  text-align: center;
+}
+
+nav {
+  height: fit-content;
+  background-color: lightgrey;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+main {
+  height:auto;
+  display: inline-block;
+  background-color: lightskyblue;
+  max-width: 70%;
+  padding-left: 40px;
+}
+
 table {
-  border: 2px solid #555;
   border-collapse: collapse;
   font: 16px "Lucida Grande", "Helvetica", "Arial", sans-serif;
+  box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+    
 }
 
 th, td {
@@ -9,11 +38,31 @@ th, td {
   padding: 2px 8px 0;
   text-align: left;
 }
+
 section {
   background-color: darksalmon;
+  
 }
 
 aside{
   background-color: aquamarine;
-  display: inline-block;
+  max-width: 25%;
+  display:inline-block;
+  
+}
+
+h4, h3 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+p, h4 {
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-left: 40px;
 }
