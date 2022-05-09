@@ -16,7 +16,7 @@ nav {
   padding-bottom: 40px;
 }
 
-main {
+article {
   height:auto;
   display: inline-block;
   background-color: lightskyblue;
@@ -41,6 +41,7 @@ th, td {
 
 section {
   background-color: darksalmon;
+  text-align: justify;
   
 }
 
@@ -48,7 +49,7 @@ aside{
   background-color: aquamarine;
   max-width: 25%;
   display:inline-block;
-  
+    
 }
 
 h4, h3 {
