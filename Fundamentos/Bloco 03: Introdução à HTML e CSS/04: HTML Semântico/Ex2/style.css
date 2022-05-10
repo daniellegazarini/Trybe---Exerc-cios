@@ -12,14 +12,14 @@ header {
 nav {
   height: fit-content;
   background-color: lightgrey;
-  padding-left: 40px;
-  padding-bottom: 40px;
+  padding: 20px 0px 20px 40px;
+  
 }
 
 article {
   height:auto;
   display: inline-block;
-  background-color: lightskyblue;
+  background-color: none;
   max-width: 70%;
   padding-left: 40px;
 }
@@ -42,13 +42,17 @@ th, td {
 section {
   background-color: darksalmon;
   text-align: justify;
+  padding: 5px;
+
   
 }
 
 aside{
-  background-color: aquamarine;
+  background-color: none;
   max-width: 25%;
   display:inline-block;
+  vertical-align:top;
+
     
 }
 
@@ -66,4 +70,17 @@ p, h4 {
 
 ul {
   padding-left: 40px;
+}
+
+#h4-aside {
+  background-color: #bbb;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+p { 
+  text-indent: 10px;
+}
+
+span { 
+  padding-left: 20px;
 }
