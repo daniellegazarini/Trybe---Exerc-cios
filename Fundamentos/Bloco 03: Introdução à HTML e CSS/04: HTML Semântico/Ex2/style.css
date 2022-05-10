@@ -4,14 +4,13 @@
 }
 
 header {
-  height: 10vh;
   background-color: lightseagreen;
   text-align: center;
 }
 
 nav {
   height: fit-content;
-  background-color: lightgrey;
+  background-color: rgb(53, 186, 179);
   padding: 20px 0px 20px 40px;
   
 }
@@ -40,7 +39,7 @@ th, td {
 }
 
 section {
-  background-color: darksalmon;
+  background-color: none;
   text-align: justify;
   padding: 5px;
 
@@ -52,6 +51,7 @@ aside{
   max-width: 25%;
   display:inline-block;
   vertical-align:top;
+  padding-right: 0%;
 
     
 }
@@ -73,7 +73,7 @@ ul {
 }
 
 #h4-aside {
-  background-color: #bbb;
+  background-color: rgb(16, 220, 213);
   text-align: center;
   padding: 10px 0px 10px 0px;
 }
