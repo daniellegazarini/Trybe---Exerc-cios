@@ -1,0 +1,42 @@
+fieldset {
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+}
+
+#form {
+  width: fit-content;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  display: block;
+}
+
+#input-name {
+  
+  left: 150px
+}
+
+#input-email {
+ 
+  left:150px;
+}
+
+
+p, legend{
+  font-weight: bold;
+}
+
+label {
+  padding-top: 5px;
+}
+
+#buttons {
+  width: fit-content;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
